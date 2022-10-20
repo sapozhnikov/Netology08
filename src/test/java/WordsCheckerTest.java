@@ -14,7 +14,7 @@ public class WordsCheckerTest {
     }
 
     @Test
-    void HasWordPositiveTest(){
+    public void HasWordPositiveTest(){
         Assertions.assertTrue(wordsChecker.hasWord("tempor"));
         Assertions.assertTrue(wordsChecker.hasWord("reprehenderit"));
     }
